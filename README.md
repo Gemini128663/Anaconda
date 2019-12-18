@@ -5,7 +5,7 @@
  * @LastEditTime : 2019-12-18 19:29:39
  * @FilePath: \install\README.md
  -->
-#### 1. 安装Anaconda  
+## 1. 安装Anaconda  
 Anaconda指的是一个开源的 Python 发行版本，其包含了conda、Python 等180多个科学包及其依赖项。通过安装 Anaconda ，能够大量减少配置Python环境的时间，减少许多不必要的麻烦。  
 - 下载 Anaconda   
 进入Anaconda官方网站 <https://www.anaconda.com/distribution> 下载相对的版本。  
@@ -40,3 +40,9 @@ custom_channels:
   pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
+
+## 2. 安装 VS Code
+进入Anaconda后，安装VS code
+
+![安装 VS code](https://github.com/Gemini128663/photos/blob/master/install_vscode.png
+)
