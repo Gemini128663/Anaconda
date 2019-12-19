@@ -96,13 +96,13 @@ custom_channels:
 
 3. 新建仓库  
    1.  
-   ![新建仓库](https://github.com/Gemini128663/photos/raw/master/5.png)
+   ![新建仓库](https://github.com/Gemini128663/photos/raw/master/5.png)  
    2.  
-   ![six](https://github.com/Gemini128663/photos/raw/master/6.png)
+   ![six](https://github.com/Gemini128663/photos/raw/master/6.png)  
    3.  
-   ![seven](https://github.com/Gemini128663/photos/raw/master/7.png)
+   ![seven](https://github.com/Gemini128663/photos/raw/master/7.png)  
    4.  
-   ![eight](https://github.com/Gemini128663/photos/raw/master/8.png)
+   ![eight](https://github.com/Gemini128663/photos/raw/master/8.png)  
 
     仓库创建后，选择 Use SSH，复制地址。
 
@@ -112,13 +112,13 @@ custom_channels:
    3. 修改文件。
    4. 上传到github:  
       1.  
-      ![ten](https://github.com/Gemini128663/photos/raw/master/10.png)
+      ![ten](https://github.com/Gemini128663/photos/raw/master/10.png)  
       2.  
       ![eleven](https://github.com/Gemini128663/photos/raw/master/11.png)  
       3. 
-      ![twelve](https://github.com/Gemini128663/photos/raw/master/12.png)
+      ![twelve](https://github.com/Gemini128663/photos/raw/master/12.png)  
       4.  
-      ![thirteen](https://github.com/Gemini128663/photos/raw/master/13.png)
+      ![thirteen](https://github.com/Gemini128663/photos/raw/master/13.png)  
 
     即可将更改的文件推送到github上。
 
