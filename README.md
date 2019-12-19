@@ -5,9 +5,12 @@
  * @LastEditTime : 2019-12-18 19:29:39
  * @FilePath: \install\README.md
  -->
-## 1. 安装Anaconda  
+
+# 1. 安装Anaconda  
+
 Anaconda指的是一个开源的 Python 发行版本，其包含了conda、Python 等180多个科学包及其依赖项。通过安装 Anaconda ，能够大量减少配置Python环境的时间，减少许多不必要的麻烦。  
-- 下载 Anaconda   
+
+- 下载 Anaconda
 进入Anaconda官方网站 <https://www.anaconda.com/distribution> 下载相对的版本。  
 ![图片点击请查看](https://raw.githubusercontent.com/WanglinLi595/Save_Markdown_Picture/master/OpenCV-Python%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/anaconda.png)  
 选择 Python3.7 , 64 位版下载。  
@@ -24,7 +27,7 @@ Anaconda 默认的镜像源都在国外，访问不但速度慢，而且经常�
 在cmd下运行命令：conda config --set show_channel_urls yes，在用户目录下生成 .condarc 文件。  
 修改.condarc文件里面的内容：
 
-```
+```python
 
 channels:
   - defaults
@@ -43,66 +46,80 @@ custom_channels:
 ```
 
 ## 2. 安装 VS Code
-进入Anaconda后，安装VS code
 
-![安装 VS code](https://github.com/Gemini128663/photos/blob/master/install_vscode.png)
+进入Anaconda后，安装VS code  
+
+![安装 VS code](https://github.com/Gemini128663/photos/blob/master/install_vscode.png?raw=true)
 
 ## 3. 安装git
 
 - 下载git
 
-  https://git-scm.com/download/win
+  <https://git-scm.com/download/win>
   打开即可自动下载，默认安装方式，点击next即可。
 
 - 配置git
 
-  打开Git Bash  输入以下命令进行配置
+  安装完成之后右键打开Git Bash  输入以下命令进行配置
 
-  ```git config --global user.name "your name"```
+  ```git config --global user.name "your name"---(github用户名)```
 
-  ```git config --global user.email "your email address"```
+  ```git config --global user.email "your email address"---(github邮箱地址)```
 
 ## 4. 用git连接VS code和github
 
 1. 创建github账户。
 
 2. 本地提交使用免密登录(SSH):
-   1. 关于HTTPS和SSH的区别，网上有很多，我就不阐述了。
+   1. 关于HTTPS和SSH的区别，网上有很多，这里就不阐述了。
    2. Git Bash中输入 ssh-keygen -t rsa -C "your email address"，一直回车即可可生成一个.ssh文件。
 
    3. 在生成的.ssh文件中用记事本方式打开id_rsa.pub文件，复制。
 
    4. 打开github,点击右上角个人信息
-      1. 根据以下视图操作
-      ![第一步](https://github.com/Gemini128663/photos/blob/master/1.png)
-      ![第二步](https://github.com/Gemini128663/photos/blob/master/2.png)
-      ![第三步](https://github.com/Gemini128663/photos/blob/master/3.png)
-      ![第四步](https://github.com/Gemini128663/photos/blob/master/4.png)
+
+       根据以下视图操作  
+
+        1.  
+        ![第一步](https://github.com/Gemini128663/photos/blob/master/1.png?raw=true)  
+
+        2.![第二步](https://github.com/Gemini128663/photos/blob/master/2.png?raw=true)
+
+        3.![第三步](https://github.com/Gemini128663/photos/blob/master/3.png?raw=true)
+
+        4.![第四步](https://github.com/Gemini128663/photos/blob/master/4.png?raw=true)
+
       完成之后，公钥添加完毕。
 
 3. 新建仓库
 
-    ![新建仓库](https://github.com/Gemini128663/photos/blob/master/5.png)
+   1.  
+     ![新建仓库](https://github.com/Gemini128663/photos/blob/master/5.png?raw=true)
+   2.  
+     ![six](https://github.com/Gemini128663/photos/blob/master/6.png?raw=true)
+   3.  
+     ![seven](https://github.com/Gemini128663/photos/blob/master/7.png?raw=true)
+   4.  
+     ![eight](https://github.com/Gemini128663/photos/blob/master/8.png?raw=true)
 
-    ![six](https://github.com/Gemini128663/photos/blob/master/6.png)
+    仓库创建后，选择 Use SSH，复制地址。
 
-    仓库创建后，选择 Use SSH
-
-    ![seven](https://github.com/Gemini128663/photos/blob/master/7.png)
-
-    ![eight](https://github.com/Gemini128663/photos/blob/master/8.png)
-   
 4. 打开VS code
    1. Ctrl+Shift+p，搜索Git:clone，粘贴地址。
-
    2. 选择存储位置。
    3. 修改文件。
-   4. 上传到github:  
-    ![ten](https://github.com/Gemini128663/photos/blob/master/10.png)
-    ![eleven](https://github.com/Gemini128663/photos/blob/master/11.png)
-    ![twelve](https://github.com/Gemini128663/photos/blob/master/12.png)
-    ![thirteen](https://github.com/Gemini128663/photos/blob/master/13.png)即可将更改的文件推送到github上。
-### 待更新
+   4. 上传到github:
+      1.  
+        ![ten](https://github.com/Gemini128663/photos/blob/master/10.png?raw=true)
+      2.  
+        ![eleven](https://github.com/Gemini128663/photos/blob/master/11.png?raw=true)
+      3.  
+        ![twelve](https://github.com/Gemini128663/photos/blob/master/12.png?raw=true)
+      4.  
+        ![thirteen](https://github.com/Gemini128663/photos/blob/master/13.png?raw=true)
 
+    即可将更改的文件推送到github上。
+
+# 待更新
 
 
