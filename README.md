@@ -84,13 +84,13 @@ custom_channels:
         ![第一步](https://github.com/Gemini128663/photos/raw/master/1.png)  
 
         2.  
-        ![第二步](https://github.com/Gemini128663/photos/raw/master/2.png)
+        ![第二步](https://github.com/Gemini128663/photos/raw/master/2.png)  
 
         3.  
-        ![第三步](https://github.com/Gemini128663/photos/raw/master/3.png)
+        ![第三步](https://github.com/Gemini128663/photos/raw/master/3.png)  
 
         4.  
-        ![第四步](https://github.com/Gemini128663/photos/raw/master/4.png)
+        ![第四步](https://github.com/Gemini128663/photos/raw/master/4.png)  
 
       完成之后，公钥添加完毕。
 
