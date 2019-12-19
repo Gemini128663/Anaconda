@@ -72,7 +72,8 @@ custom_channels:
 
    3. 在生成的.ssh文件中用记事本方式打开id_rsa.pub文件，复制。
 
-   4. 打开github,点击右上角个人
+   4. 打开github,点击右上角个人信息
+      1. 根据以下视图操作
       ![第一步](https://github.com/Gemini128663/photos/blob/master/1.png)
       ![第二步](https://github.com/Gemini128663/photos/blob/master/2.png)
       ![第三步](https://github.com/Gemini128663/photos/blob/master/3.png)
@@ -85,7 +86,7 @@ custom_channels:
 
     ![six](https://github.com/Gemini128663/photos/blob/master/6.png)
 
-    选择 Use SSH
+    仓库创建后，选择 Use SSH
 
     ![seven](https://github.com/Gemini128663/photos/blob/master/7.png)
 
