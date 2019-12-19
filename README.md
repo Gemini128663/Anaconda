@@ -97,7 +97,7 @@ custom_channels:
 
    2. 选择存储位置。
    3. 修改文件。
-   4. 上传到github:
+   4. 上传到github:  
     ![ten](https://github.com/Gemini128663/photos/blob/master/10.png)
     ![eleven](https://github.com/Gemini128663/photos/blob/master/11.png)
     ![twelve](https://github.com/Gemini128663/photos/blob/master/12.png)
