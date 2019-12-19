@@ -114,7 +114,7 @@ custom_channels:
       1.  
       ![ten](https://github.com/Gemini128663/photos/raw/master/10.png)  
       2.  
-      ![eleven](https://github.com/Gemini128663/photos/raw/master/11.png)
+      ![eleven](https://github.com/Gemini128663/photos/raw/master/11.png)  
       3. 
       ![twelve](https://github.com/Gemini128663/photos/raw/master/12.png)  
       4.  
