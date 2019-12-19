@@ -49,7 +49,7 @@ custom_channels:
 
 进入Anaconda后，安装VS code  
 
-![安装 VS code](https://github.com/Gemini128663/photos/blob/master/install_vscode.png?raw=true)
+![安装 VS code](https://github.com/Gemini128663/photos/raw/master/install_vscode.png)
 
 ## 3. 安装git
 
@@ -81,26 +81,28 @@ custom_channels:
        根据以下视图操作  
 
         1.  
-        ![第一步](https://github.com/Gemini128663/photos/blob/master/1.png?raw=true)  
+        ![第一步](https://github.com/Gemini128663/photos/raw/master/1.png)  
 
-        2.![第二步](https://github.com/Gemini128663/photos/blob/master/2.png?raw=true)
+        2.  
+        ![第二步](https://github.com/Gemini128663/photos/raw/master/2.png)
 
-        3.![第三步](https://github.com/Gemini128663/photos/blob/master/3.png?raw=true)
+        3.  
+        ![第三步](https://github.com/Gemini128663/photos/raw/master/3.png)
 
-        4.![第四步](https://github.com/Gemini128663/photos/blob/master/4.png?raw=true)
+        4.  
+        ![第四步](https://github.com/Gemini128663/photos/raw/master/4.png)
 
       完成之后，公钥添加完毕。
 
-3. 新建仓库
-
+3. 新建仓库  
    1.  
-     ![新建仓库](https://github.com/Gemini128663/photos/blob/master/5.png?raw=true)
+   ![新建仓库](https://github.com/Gemini128663/photos/raw/master/5.png)
    2.  
-     ![six](https://github.com/Gemini128663/photos/blob/master/6.png?raw=true)
+   ![six](https://github.com/Gemini128663/photos/raw/master/6.png)
    3.  
-     ![seven](https://github.com/Gemini128663/photos/blob/master/7.png?raw=true)
+   ![seven](https://github.com/Gemini128663/photos/raw/master/7.png)
    4.  
-     ![eight](https://github.com/Gemini128663/photos/blob/master/8.png?raw=true)
+   ![eight](https://github.com/Gemini128663/photos/raw/master/8.png)
 
     仓库创建后，选择 Use SSH，复制地址。
 
@@ -108,15 +110,15 @@ custom_channels:
    1. Ctrl+Shift+p，搜索Git:clone，粘贴地址。
    2. 选择存储位置。
    3. 修改文件。
-   4. 上传到github:
+   4. 上传到github:  
       1.  
-        ![ten](https://github.com/Gemini128663/photos/blob/master/10.png?raw=true)
+      ![ten](https://github.com/Gemini128663/photos/raw/master/10.png)
       2.  
-        ![eleven](https://github.com/Gemini128663/photos/blob/master/11.png?raw=true)
-      3.  
-        ![twelve](https://github.com/Gemini128663/photos/blob/master/12.png?raw=true)
+      ![eleven](https://github.com/Gemini128663/photos/raw/master/11.png)  
+      3. 
+      ![twelve](https://github.com/Gemini128663/photos/raw/master/12.png)
       4.  
-        ![thirteen](https://github.com/Gemini128663/photos/blob/master/13.png?raw=true)
+      ![thirteen](https://github.com/Gemini128663/photos/raw/master/13.png)
 
     即可将更改的文件推送到github上。
 
