@@ -2,7 +2,7 @@
  * @Author: chang_an
  * @Date: 2019-12-13 11:07:45
  * @LastEditors  : chang_an
- * @LastEditTime : 2019-12-20 17:10:52
+ * @LastEditTime : 2019-12-20 18:21:25
  * @FilePath: \install\README.md
  -->
 
@@ -90,7 +90,7 @@ custom_channels:
 )  
 
         3.  
-        ![第三步](https://github.com/Gemini128663/photos/raw/master/3.png)  
+        ![第三步](https://github.com/Gemini128663/photos/raw/master/photos/3.png)  
 
         4.  
         ![第四步](https://github.com/Gemini128663/photos/raw/master/photos/4.png
