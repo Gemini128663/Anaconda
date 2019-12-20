@@ -2,7 +2,7 @@
  * @Author: chang_an
  * @Date: 2019-12-13 11:07:45
  * @LastEditors  : chang_an
- * @LastEditTime : 2019-12-20 17:09:23
+ * @LastEditTime : 2019-12-20 17:10:52
  * @FilePath: \install\README.md
  -->
 
@@ -134,5 +134,5 @@ custom_channels:
 
     即可将更改的文件推送到github上。
 
-# 待更新
+# 待更
 
