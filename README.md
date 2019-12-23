@@ -2,7 +2,7 @@
  * @Author: chang_an
  * @Date: 2019-12-13 11:07:45
  * @LastEditors  : chang_an
- * @LastEditTime : 2019-12-23 11:25:12
+ * @LastEditTime : 2019-12-23 11:27:40
  * @FilePath: \install\README.md
  -->
 
@@ -142,7 +142,7 @@ custom_channels:
  2. 当然是创建一个Pypi的账号了，至于怎么创建我就不用说了吧。Pypi传送门：<https://pypi.org/>
  3. 在setup.py目录下打开终端，输入
 ```python setup.py sdist bdist_wheel```,会生成库名称.egg-info文件夹、build文件夹、dist文件夹（包括压缩文件和whl文件）三个文件夹
-1. 在同样的终端下输入```python -m twine upload -u Pypi用户名 -p 密码 dist/*```将dist文件夹上传到Pypi(依赖twine模块 下载：```pip install twine```)
+ 4. 在同样的终端下输入```python -m twine upload -u Pypi用户名 -p 密码 dist/*```将dist文件夹上传到Pypi(依赖twine模块 下载：```pip install twine```)
 
 \# 这里有几个想给大家说下我自己上传过程中遇到的几个问题
 
@@ -154,5 +154,4 @@ custom_channels:
 
 联系方式
 
-      邮箱:1286631591@qq.com
-
+邮箱:1286631591@qq.com
