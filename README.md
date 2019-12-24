@@ -2,7 +2,7 @@
  * @Author: chang_an
  * @Date: 2019-12-13 11:07:45
  * @LastEditors  : chang_an
- * @LastEditTime : 2019-12-24 08:26:55
+ * @LastEditTime : 2019-12-24 09:06:48
  * @FilePath: \install\README.md
  -->
 
@@ -190,13 +190,14 @@ custom_channels:
 从Git远程仓库中将每一个文件的每一个版本拉取下来。
 ```git clone url```
 这会在本地clone一个文件夹。
+
 ## GIt基础-记录每次更新到仓库
+
 ```git add``` 是一个多功能命令
 
 1. 可以开始跟踪新文件
 2. 或者把已经跟踪的文件放到暂存区
 3. 还能把用于合并时把有的冲突的文件标记为已解决状态。
-
 
 如果是新建文件，要使用git add 文件名字 跟踪文件。(-U表示未被跟踪的文件)
 
@@ -205,6 +206,7 @@ custom_channels:
 之后如果只是修改文件，就可以使用 ```git commit -am "XXXXXX"```会自动把所有已经跟踪过的文件暂存器来一起提交，从而跳过git add 步骤。
 
 如果想把项目推送到远程仓库，则还需要``git push``命令.
+
 - 总结以上，一个流程所使用的的命令有
   - git clone &#8195;**将远程仓库中将每一个文件的每一个版本拉取下来**
   - git add . &#8195;**跟踪所有新文件且将已修改的所有文件放到暂存区**
@@ -212,5 +214,3 @@ custom_channels:
   - git push  &#8195;**将仓库推送到远程仓库**
 
 \# git的其他使用以及其他命令请参考 <https://git-scm.com/book/en/v2/>
-
-
