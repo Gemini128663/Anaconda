@@ -2,7 +2,7 @@
  * @Author: chang_an
  * @Date: 2019-12-13 11:07:45
  * @LastEditors  : chang_an
- * @LastEditTime : 2019-12-24 09:06:48
+ * @LastEditTime : 2019-12-24 09:09:23
  * @FilePath: \install\README.md
  -->
 
@@ -199,12 +199,7 @@ custom_channels:
 2. 或者把已经跟踪的文件放到暂存区
 3. 还能把用于合并时把有的冲突的文件标记为已解决状态。
 
-<<<<<<< HEAD
 如果是新建文件，要使用git add 文件名字 跟踪文件。(-U表示未被跟踪的文件)
-=======
-
-如果是新建文件，要使用```git add 文件名字``` 跟踪文件。(-U表示未被跟踪的文件)
->>>>>>> 24bcd9b8e2dc9cb3594a543d2ff2a54cd05a7832
 
 ```git commit -m "XXXXX"```是将已暂存的文件永久性存储到Git仓库目录。
 
