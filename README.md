@@ -2,7 +2,7 @@
  * @Author: chang_an
  * @Date: 2019-12-13 11:07:45
  * @LastEditors  : chang_an
- * @LastEditTime : 2019-12-24 09:11:20
+ * @LastEditTime : 2019-12-24 15:59:29
  * @FilePath: \install\README.md
  -->
 
@@ -83,18 +83,18 @@ custom_channels:
 
        根据以下视图操作  
 
-        1.  
+        1 .  
         ![第一步](https://github.com/Gemini128663/photos/raw/master/photos/1.png
 )  
 
-        2.  
+        2 .  
         ![第二步](https://github.com/Gemini128663/photos/raw/master/photos/2.png
 )  
 
-        3.  
+        3 .  
         ![第三步](https://github.com/Gemini128663/photos/raw/master/photos/3.png)  
 
-        4.  
+        4 .  
         ![第四步](https://github.com/Gemini128663/photos/raw/master/photos/4.png
 )  
 
@@ -207,11 +207,18 @@ custom_channels:
 
 如果想把项目推送到远程仓库，则还需要``git push``命令.
 
-- 总结以上，一个流程所使用的的命令有
-  - git clone &#8195;**将远程仓库中将每一个文件的每一个版本拉取下来**
-  - git add . &#8195;**跟踪所有新文件且将已修改的所有文件放到暂存区**
-  - git commit -m "XXXX"&#8195;**将暂存区域的文件永久的存放到Git仓库**
-  - git push  &#8195;**将仓库推送到远程仓库**
+- 总结以上，
+
+ 1. 将项目推送到远程仓库的流程所使用的的命令有
+
+     - git clone &#8195;**将远程仓库中将每一个文件的每一个版本拉取下来**
+     - git add . &#8195;**跟踪所有新文件且将已修改的所有文件放到暂存区**
+     - git commit -m "XXXX"&#8195;**将暂存区域的文件永久 的存放到Git仓库**
+     - git push  &#8195;**将仓库推送到远程仓库**
+ 2. 存放在本地仓库的流程命令有
+     - git init &#8195;**初始化仓库**
+     - git add . &#8195;**说明同上**
+     - git commit -m "XXXXX"&#8195;**说明同上**
 
 \# git的其他使用以及其他命令请参考 <https://git-scm.com/book/en/v2/>
 7878788888
