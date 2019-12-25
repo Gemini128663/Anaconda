@@ -1,5 +1,9 @@
 # 把项目推送到推送到github上的简单教程及说明
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
 - [把项目推送到推送到github上的简单教程及说明](#把项目推送到推送到github上的简单教程及说明)
   - [安装Anaconda、VS code、git](#安装anacondavs-codegit)
     - [安装Anaconda](#安装anaconda)
@@ -13,6 +17,9 @@
     - [GIt基础-记录每次更新到仓库](#git基础-记录每次更新到仓库)
   - [注意事项](#注意事项)
 
+<!-- /code_chunk_output -->
+
+    
 ## 安装Anaconda、VS code、git
 
 ### 安装Anaconda
