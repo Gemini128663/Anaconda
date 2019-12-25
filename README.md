@@ -1,14 +1,21 @@
-<!--
- * @Author: chang_an
- * @Date: 2019-12-13 11:07:45
- * @LastEditors  : chang_an
- * @LastEditTime : 2019-12-25 08:47:36
- * @FilePath: \install\README.md
- -->
+# 把项目推送到推送到github上的简单教程及说明
 
-# 1.安装Anaconda、VS code、git
+- [把项目推送到推送到github上的简单教程及说明](#把项目推送到推送到github上的简单教程及说明)
+  - [安装Anaconda、VS code、git](#安装anacondavs-codegit)
+    - [安装Anaconda](#安装anaconda)
+    - [安装 VS Code](#安装-vs-code)
+    - [安装git](#安装git)
+    - [用git连接VS code和github](#用git连接vs-code和github)
+  - [上传模块到Pypi](#上传模块到pypi)
+  - [关于git](#关于git)
+    - [认识git](#认识git)
+    - [GIt基础-获取Git仓库](#git基础-获取git仓库)
+    - [GIt基础-记录每次更新到仓库](#git基础-记录每次更新到仓库)
+  - [注意事项](#注意事项)
 
-## 1. 安装Anaconda
+## 安装Anaconda、VS code、git
+
+### 安装Anaconda
 
 Anaconda指的是一个开源的 Python 发行版本，其包含了conda、Python 等180多个科学包及其依赖项。通过安装 Anaconda ，能够大量减少配置Python环境的时间，减少许多不必要的麻烦。  
 
@@ -47,14 +54,14 @@ custom_channels:
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
 
-## 2. 安装 VS Code
+### 安装 VS Code
 
 进入Anaconda后，安装VS code  
 
 ![安装 VS code](https://github.com/Gemini128663/photos/raw/master/photos/install_vscode.png
 )
 
-## 3. 安装git
+### 安装git
 
 - 下载git
 
@@ -69,7 +76,7 @@ custom_channels:
 
   ```git config --global user.email "your email address"---(github邮箱地址)```
 
-## 4. 用git连接VS code和github
+### 用git连接VS code和github
 
 1. 创建github账户。
 
@@ -138,7 +145,7 @@ custom_channels:
 
  上传到Pypi
 
-# 2. 上传模块到Pypi
+## 上传模块到Pypi
 
  1. 首先在与代码文件夹同级目录新建setup.py文件，内容如下：其中，前三个是必须要写的。其他的参数请参考官方文档：<https://packaging.python.org/tutorials/packaging-projects/>
  2. 当然是创建一个Pypi的账号了，至于怎么创建我就不用说了吧。Pypi传送门：<https://pypi.org/>
@@ -152,13 +159,9 @@ custom_channels:
 2. 尽量库的名称与存放代码文件夹的名称相同。
 3. 上传好了一定要自己下载测试一下。
 
-以上几个都是我在上传过程中遇到的问题，如果在上传测试中遇到什么问题，我们可以一起讨论。
+## 关于git
 
-联系方式
-
-邮箱:1286631591@qq.com
-
-# 3. 关于git
+### 认识git
 
 - Git有三种状态：已提交(committed)、已修改(modified)和已暂存(staged)。已提交表示数据已经安全的保存在本地数据库中。已修改表示修改了文件，但还没有保存到数据库中。已暂存表示对一个已修改文件的当前版本做了标记，使之包含在下次提交的快照中。由此引入git项目的三个工作区域的概念：**Git仓库、工作目录以及暂存区域**。
   - Git仓库是Git用来保存项目的元数据和对象数据库的地方。这是Git中最重要的部分，从其他计算机克隆仓库时，拷贝的就是这里的数据。
@@ -174,38 +177,32 @@ custom_channels:
 
 如果Git目录中保存着特定版本的文件，就属于已提交状态。如果作了修改并已放入暂存区域，就属于已暂存状态。如果自上次取出后，作了修改但还没有放到暂存区域，就是已修改状态。
 
-## GIt基础-获取Git仓库
+### GIt基础-获取Git仓库
 
-### 获取Git仓库
-
+获取Git仓库  
 有两种取得Git项目仓库的方法。第一种是在现有项目或目录下导入所有文件到Git中；第二种是从一个服务器克隆一个现有的仓库。
 
-#### 在现有目录中初始化仓库
+  1. 在现有目录中初始化仓库  
+如果打算使用Git对现有的项目进行管理。需要进入该项目目录打开命令行窗口输入：```git init```
 
-如果打算使用Git对现有的项目进行管理。需要进入该项目目录并输入：
-```git init```
+  1. 克隆现有的仓库  
+使用```git clone url```命令将Git远程仓库中将每一个文件的每一个版本拉取下来。这会在本地clone一个文件夹。
 
-#### 克隆现有的仓库
+### GIt基础-记录每次更新到仓库
 
-从Git远程仓库中将每一个文件的每一个版本拉取下来。
-```git clone url```
-这会在本地clone一个文件夹。
+1. git中```git add``` 是一个多功能命令，有以下几点作用：
 
-## GIt基础-记录每次更新到仓库
+      可以开始跟踪新文件  
+      或者把已经跟踪的文件放到暂存区  
+      还能把用于合并时把有的冲突的文件标记为已解决状态。
 
-```git add``` 是一个多功能命令
+      如果是新建文件，要使用```git add 文件名字``` 跟踪文件。(-U表示未被跟踪的文件)
 
-1. 可以开始跟踪新文件
-2. 或者把已经跟踪的文件放到暂存区
-3. 还能把用于合并时把有的冲突的文件标记为已解决状态。
+2. 命令```git commit -m "XXXXX"```是将已暂存的文件永久性存储到Git仓库目录。
 
-如果是新建文件，要使用```git add 文件名字``` 跟踪文件。(-U表示未被跟踪的文件)
+      之后如果只是修改文件，就可以使用 ```git commit -am "XXXXXX"```会自动把所有已经跟踪过的文件暂存器来一起提交，从而跳过git add 步骤。
 
-```git commit -m "XXXXX"```是将已暂存的文件永久性存储到Git仓库目录。
-
-之后如果只是修改文件，就可以使用 ```git commit -am "XXXXXX"```会自动把所有已经跟踪过的文件暂存器来一起提交，从而跳过git add 步骤。
-
-如果想把项目推送到远程仓库，则还需要``git push``命令.
+3. 如果想把项目推送到远程仓库，则还需要``git push``命令.
 
 - 总结以上，
 
@@ -220,5 +217,13 @@ custom_channels:
      - git add . &#8195;**说明同上**
      - git commit -m "XXXXX"&#8195;**说明同上**
 
-\# git的其他使用以及其他命令请参考 <https://git-scm.com/book/en/v2/>
+## 注意事项
 
+ 1. [用git连接VS code和github](#用git连接vs-code和github)时要在VS code中的settings配置两个命令  
+   例如我的是：```"git.path": "C:/Program Files/Git/bin/git.exe"```,
+   和```"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"```
+ 2. 在VS code中使用插件生成目录时，每一个标题中的下面的每一行不能使用代码开头，即开头不能是  ```git init```类似的代码。
+ 3. 在将模块上传至Pypi时，即使别人可以下载，在site-packages中运行主函数也没有错，仍然导入错误的原因是找不到包，要将带入的模块名换成包名。
+ 4. 其实[用git连接VS code和github](#用git连接vs-code和github)和[关于git](#关于git)在这里是差不多的只不过一个是在VS code中推送，一个是在命令行窗口中。
+
+\# git的其他使用以及其他命令请参考 <https://git-scm.com/book/en/v2/>
