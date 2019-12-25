@@ -222,7 +222,7 @@ custom_channels:
  1. [用git连接VS code和github](#用git连接vs-code和github)时要在VS code中的settings配置两个命令  
    例如我的是：```"git.path": "C:/Program Files/Git/bin/git.exe"```,
    和```"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"```
- 2. 在VS code中使用插件生成目录时，每一个标题中的下面的每一行不能使用代码开头，即开头不能是  ```git init```类似的代码。
+ 2. 在VS code中使用插件生成目录时，每一个标题中的下面的每一行不能使用代码开头，即开头不能是  ```git init```类似的代码，否则生成目录时会忽略顶级标题以及下属的所有标题。
  3. 在将模块上传至Pypi时，即使别人可以下载，在site-packages中运行主函数也没有错，仍然导入错误的原因是找不到包，要将带入的模块名换成包名。
  4. 其实[用git连接VS code和github](#用git连接vs-code和github)和[关于git](#关于git)在这里是差不多的只不过一个是在VS code中推送，一个是在命令行窗口中。
 
