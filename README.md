@@ -2,7 +2,7 @@
  * @Author: chang_an
  * @Date: 2019-12-13 11:07:45
  * @LastEditors  : chang_an
- * @LastEditTime : 2019-12-24 15:59:29
+ * @LastEditTime : 2019-12-25 08:47:36
  * @FilePath: \install\README.md
  -->
 
@@ -221,4 +221,4 @@ custom_channels:
      - git commit -m "XXXXX"&#8195;**说明同上**
 
 \# git的其他使用以及其他命令请参考 <https://git-scm.com/book/en/v2/>
-7878788888
+
